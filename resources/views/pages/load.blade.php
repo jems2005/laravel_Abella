@@ -8,9 +8,9 @@
     <nav class="navbar navbar-dark bg-primary px-3">
         <a class="navbar-brand fw-bold" href="{{ route('home') }}">MyLaravelApp</a>
         <div>
-            <a class="btn btn-outline-light btn-sm" href="{{ route('home') }}">Home</a>
-            <a class="btn btn-outline-light btn-sm" href="{{ route('load') }}">Load</a>
-            <a class="btn btn-outline-light btn-sm" href="{{ route('record') }}">Record</a>
+            <a class="btn btn-outline-light btn-sm" href="/home">Home</a>
+            <a class="btn btn-outline-light btn-sm" href="/load">Load</a>
+            <a class="btn btn-outline-light btn-sm" href="/record">Record</a>
         </div>
     </nav>
 
